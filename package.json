@@ -4,6 +4,7 @@
   "description": "STORM",
   "main": "index.js",
   "scripts": {
+    
     "start": "ts-node app/index.js"
   },
   "author": "chandan kumar shanbhag",
