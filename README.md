@@ -1,7 +1,7 @@
 # storm
 storm is a webframework for nodejs
 
-[![Storm Logo](https://i.ibb.co/YfGNLBv/storm.png)]
+![Storm Logo](https://i.ibb.co/YfGNLBv/storm.png)
 
 
 Creating a route
@@ -15,7 +15,6 @@ export default class Index extends Route {
     constructor(){
         super();
         this.index = this.index.bind(this);
-        this.stormimage = this.stormimage.bind(this)
     }
     @requestMethods("get","post")
     index(){
