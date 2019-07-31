@@ -4,7 +4,7 @@ storm is a webframework for nodejs
 ![Storm Logo](https://i.ibb.co/YfGNLBv/storm.png)
 
 
-##Creating a route
+## Creating a route
 
 ```js
 
@@ -24,7 +24,7 @@ export default class Index extends Route {
 
 ```
 
-##Creating Server
+## Creating Server
 ```js
 
 import Storm,{ stormApp } from "./../lib/index"
@@ -46,7 +46,7 @@ new App().start()
 ```
 
 
-##Run
+## Run
 ```
 ts-node <path to your .ts file>
 ```
