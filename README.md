@@ -1,5 +1,5 @@
-# stormjs
-stormjs is a webframework for nodejs
+# storm
+storm is a webframework for nodejs
 
 [![Storm Logo](https://i.ibb.co/YfGNLBv/storm.png)]
 
