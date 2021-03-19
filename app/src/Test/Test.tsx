@@ -1,6 +1,7 @@
-import { Route,requestMethods,headersRequired } from "./../../../lib/index"
+import { Route,requestMethods,headersRequired } from "../../../lib/index"
 import fs from "fs";
 import path from "path";
+import React from "react"
 
 class Test extends Route{
     constructor(){
@@ -17,6 +18,11 @@ class Test extends Route{
     about(){
         console.log(this.$get["hello"])
         return { hello: "dfs"}
+    }
+
+    @requestMethods("get","post")
+    getvalue(){
+        return <h1>Hello</h1>;
     }
 
 }

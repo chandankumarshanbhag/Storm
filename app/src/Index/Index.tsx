@@ -17,4 +17,9 @@ export default class Index extends Route {
     stormimage(){
         return fs.createReadStream(path.join(__dirname,"storm.png"))
     }
+    
+    @requestMethods("get","post")
+    about(){
+        return "Hello";
+    }
 }
